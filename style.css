@@ -39,7 +39,7 @@ body{
 }
 .link-btn{
     text-decoration: none;
-    background-image: linear-gradient(#ee4b00,#e69d00);
+    background-image: linear-gradient(#ffa500,#ffc863);
     padding: 10px 30px;
     border-radius: 8px;
     color: white;
@@ -65,11 +65,20 @@ body{
     box-shadow: 5px 10px 30px #878787;
     border-left: 8px solid;
     border-image: linear-gradient(180deg, #943f1e, #ff2b0671);
-    border-image-slice: 1;
+    border-image-slice: 1;  
 }
 #right-exp{
     box-shadow: 5px 10px 30px #878787;
     border-left: 8px solid;
     border-image: linear-gradient(180deg, blue, #1182ec);
-    border-image-slice: 1;
+    border-image-slice: 1; 
+}
+hr{
+    margin-top: 40px;
+    border-color: coral;
+}
+.footer-area p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
 }
