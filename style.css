@@ -5,6 +5,7 @@ body{
 
 .flex{
     display: flex;
+    align-items: center;
 }
 #frist-section{
     background-image: url(images/top-banner.png);
@@ -16,23 +17,25 @@ body{
     margin-top: 20px;
 }
 .flex h1{
-    font-size: 50px;
+    font-size: 60px;
 }
 .flex p{
     line-height: 25px;
     color: #242424;
     margin-top: 30px;
     margin-bottom: 50px;
-
+}
+.flex h2{
+    font-size: 40px;
 }
 .color-orenge{
     color: orange;
     display: block;
 }
-.hafl-width{
-    width: 50%;
+.half-width{
+    width: 40%;
+    margin-left: 5%;
     padding-left: 2%;
-    align-content: center;
 }
 .link-btn{
     text-decoration: none;
@@ -41,4 +44,32 @@ body{
     border-radius: 8px;
     color: white;
     font-weight: 700;
+}
+
+#dream-section{
+    margin-top: 70px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#expre-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position: left;
+    margin-top: 70px;
+}
+#expre-section h1{
+    font-size: 50px;
+}
+#left-exp{
+    box-shadow: 5px 10px 30px #878787;
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, #943f1e, #ff2b0671);
+    border-image-slice: 1;
+}
+#right-exp{
+    box-shadow: 5px 10px 30px #878787;
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, #1182ec);
+    border-image-slice: 1;
 }
